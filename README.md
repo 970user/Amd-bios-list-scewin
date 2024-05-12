@@ -12,4 +12,4 @@ This list is for AMD BIOS settings and has been tested on both AM4 and AM5 platf
 1. Download Scewin software.
 2. Join Discord.gg/tweaking for assistance or questions.
 3. Apply settings in groups of 4 for optimal results.
-4. If issues occur, perform a CMOS reset to restore default BIOS settings.
+4. If issues occur, perform a CMOS reset to restore default BIOS settings. 
