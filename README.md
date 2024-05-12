@@ -7,6 +7,7 @@ This list is for AMD BIOS settings and has been tested on both AM4 and AM5 platf
 - Applying in groups of 4 helps identify the setting that didn't work if issues occur.
 - If something goes wrong, you can perform a CMOS reset to restore the BIOS to default settings.
 - I am not responsible for any damages that may occur while using this list.
+- Full credit goes to amit for scewin, I did not make it
 
 ## Instructions:
 1. Download Scewin software.
