@@ -20,10 +20,10 @@ This list is for AMD BIOS settings and has been tested on both AM4 and AM5 platf
 4.Open nvram and use the search feature to look for settings, use the bios list to see what to change, there are multiple of the same settings so make sure you search up and down to change all of them otherwise it won't work
 
 5. After that save the file and then run import as administrator and it should say script file imported successfully, warnings are normal
-6. ![image](https://github.com/970user/Amd-bios-list-scewin/assets/143340233/cd90f244-8f3e-4bc7-8f66-bae036e1225f)
+![image](https://github.com/970user/Amd-bios-list-scewin/assets/143340233/cd90f244-8f3e-4bc7-8f66-bae036e1225f)
 
-7. Apply settings in groups of 4 for optimal results.
+6. Apply settings in groups of 4 or less for optimal results.
 
-8. If issues occur, perform a CMOS reset to restore default BIOS settings. 
+7. If issues occur, perform a CMOS reset to restore default BIOS settings. 
 
-9. Join Discord.gg/tweaking for assistance or questions.
+8. Join Discord.gg/tweaking for assistance or questions.
