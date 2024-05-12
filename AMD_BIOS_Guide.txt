@@ -1,0 +1,273 @@
+Made by EFI
+Go to discord.gg/tweaking on discord for support
+Credits goes to Ancel(mostly taken from JerryXOC),Melody,BeersE,CATGAMEROP,JerryXOC,Felipe,SIGINT,ZQNE,NANI,jamydodger355(hunt the shunt),Nurtay (lawliet),imribiy,efi
+
+MAY CAUSE ISSUE APPLY THIS AT YOUR OWN RISK I AM NOT HELD FOR ANY RESPONSIBILITY
+
+Adaptive S4 - Disabled
+LAN Power Enable - Disabled
+PM L1 SS - Disabled
+Clock Power Management(CLKREQ#) - Disabled
+Win7 USB Wake Support - Disabled
+AMD Cool&Quiet function - Disabled
+Block PCIe Loopback - Disabled
+C6 Mode - Disabled
+EPU Power Saving Mode - Disabled
+Global C-state Control - Disabled
+Force PCIe gen speed - Gen 3
+PCIe Slot Configuration - Highest Value
+3DMark01 Enhancement - Disabled
+Isochronous Support - Disabled
+NVMe Support - DISABLE IF YOU DON'T HAVE A NVME
+PS2 Devices Support - Disabled
+Network Stack Driver Support - Disabled
+SEV-ES ASID Space Limit - 1 ( or leave default )
+RGB Fusion (Onboard LED) - Disabled
+Security Device Support - Disabled
+TPM State - Disabled
+TCM State - Disabled
+In sleep, hibernate and soft off states - Off
+Enable Hibernation - disable/set value to 0
+ACPI Sleep State - Suspend Disabled
+Onboard PCIE LAN PXE ROM - Disabled
+Onboard LED - Disabled
+CRB test - Disabled
+NX Mode - Disabled
+IOMMU - Disabled
+Integrated Graphics - Disabled
+UMA Mode - None
+AB Clock Gating - Disabled
+PCIB Clock Run - Disabled
+SATA MAXGEN2 CAP OPTION - Disabled
+Aggressive Link PM Capability - Disabled
+Chipset Power Saving Features - Disabled
+USB Phy Power Down - Disabled
+Remote Display Feature - Disabled
+PSPP Policy - Performance
+Power Loading - Disabled
+Wake on LAN - Disabled
+SR-IOV Support - disable/ set value to 0
+SATA Partial State Capability - Disabled
+SATA Slumber State Capability - Disabled
+“XXX” MSI Option - Enable as much as you have
+SATA Port “X” MODE - Put on highest Gen possible for you
+SATA Hot-Removabel Support - Disabled
+SATA CLK Mode Option - 100mhz
+SATA MSI Capability Support - Enable ( BSOD = put it back to default )
+I2C/UART/SATA/EHCI/XHCI/SD “X” D3 Support - Disabled
+S0I3 - Disabled
+GPP Serial Debug Bus Enable - Disabled
+Discrete GPU's Audio - Disabled
+Unused GPP Clocks Off - Disabled
+ACP Power Gating - Disabled
+ACP CLock Gating - Disabled
+DRAM Latency Enhance - Enabled
+Power Down Enable - Disabled
+Command Rate - 1T
+Gear Down Mode - Disabled ( BSOD = Enable it back test ram to see if its stable )
+ECO Mode - Disabled
+LN2 Mode - Disabled
+SoC/Uncore OC Mode - Enabled
+LCLK DPM - Disabled
+LCLK DPM Enhanced PCIe Detection - Disabled
+SMEE - Disabled
+FFE Write Training - Enabled
+DFE Read Training - Enabled
+ACPI _CST C1 Declaration - Disabled
+Fast Short REP MOVSB - Enabled
+Enhanced REP MOVSB/STOSB - Enabled
+REP-MOV/STOS Streaming - Enabled
+Disable DF to external downstream IP SyncFloodPropagation - Sync flood disabled
+Disable DF sync flood propagation - Sync flood disabled
+Freeze DF module queues on error - Disabled
+CC6 memory region encryption - Disabled
+AMD StartUp PWM Enable - Disabled (or just leave it enabled/default pretty useless)
+PSP error injection support - False
+DRAM scrub time - Disabled
+xGMI TXEQ Mode - Disabled (or just dont touch it at all leave default)
+Poison scrubber control - Disabled
+Redirect scrubber control - Disabled
+GMI encryption control - Disabled
+xGMI encryption control - Disabled
+Data Poisoning - Disabled
+RCD Parity - Disabled
+AMD KVM Mouse Protocol - Absolute
+DRAM Address Command Parity Retry - Disabled
+Write CRC Enable - Disabled
+DRAM Write CRC Enable and Retry Limit - Disabled
+DRAM ECC Enable - Disabled
+DRAM UECC Retry - Disabled
+BankGroupSwap - Disabled
+BankGroupSwapAlt - Enabled
+Address Hash Bank - Disabled
+Address Hash CS - Disabled
+Address Hash Rm - Disabled
+DMA Protection - Disabled
+LN2 Mode 1 - Disabled
+DMAr Support - Disabled
+ACS Enable - Disabled
+Enable AER Cap - Disabled
+SRIS - Enabled (or Disabled) separate reference clock with independent
+Determinism Control - Manual
+Determinism Slider - Power ( I prefer Performance which is the default )
+Memory interleaving size - 1 KB
+APBDIS - 1
+DF Cstates - Disabled
+Fixed SOC Pstate - P0
+CPPC - Enabled
+CPPC Preferred Cores - Enabled
+Log Poison Data from SLINK - Disabled
+Edpc Control - Disabled
+DRAM map inversion - Enabled
+Spread Spectrum - Disabled
+Opcache Control - Disabled
+TSME - Disabled
+ACPI Standby State - Suspend Disabled ( shouldn't be on amd anyways )
+ASPM Mode Control - Disabled
+Int. Clk Differential Spread - Disabled ( related to spread spectrum )
+ACPI SLIT remote relative distance - Near
+SPD Read Optimization - Enabled
+PCIe Ten Bit Tag Support - Enabled
+NBIO DPM Control - Manual
+NBIO Poison Consumption - Disabled
+NBIO RAS Global Control - Manual
+NBIO RAS Control - Disabled
+NBIO SyncFlood Generation - Disabled
+NBIO SyncFlood Reporting - Disabled
+Sata RAS Support - Disabled
+Aggresive SATA Device Sleep Port 0 - Disabled
+Aggresive SATA Device Sleep Port 1 - Disabled
+Socket1 DevSlp0 Enable - Disabled
+Socket1 DevSlp1 Enable - Disabled
+ACPI SRAT L3 Cache As NUMA Domain - Enabled
+Periodic Directory Rinse - Enabled
+PSS Support - Disabled
+SMT Control - Enabled/Auto
+System probe filter - Enabled
+4-link xGMI max speed - 25Gbps
+3-link xGMI max speed - 25Gbps
+Restore On AC Power Loss - Disabled
+xGMI Link Width Control - Manual
+xGMI Force Link Width - 2
+xGMI Force Link Width Control - Force
+xGMI Max Link Width Control - Manual
+xGMI Max Link Width - 1
+Socket 0 NBIO 0 Target DPM Level - 2
+Socket 0 NBIO 1 Target DPM Level - 2
+Socket 0 NBIO 2 Target DPM Level - 2
+Socket 0 NBIO 3 Target DPM Level - 2
+Socket 1 NBIO 0 Target DPM Level - 2
+Socket 1 NBIO 1 Target DPM Level - 2
+Socket 1 NBIO 2 Target DPM Level - 2
+Socket 1 NBIO 3 Target DPM Level - 2
+Core Watchdog Timer Enable - Disabled
+Maximum Payload - (The Max Value)
+Maximum Read Request - (The Max Value)
+USB transfer time-out - 1 sec
+Device reset time-out - 10 sec
+Device power-up delay - Manual
+Device power-up delay in seconds - 1
+Link Training Retry - Disabled
+Extended Synch - Disabled ( or leave default i'm not sure I think it's better enabled test )
+Extended Tag - Enabled
+Streaming Stores Control - Enabled
+Sata Disabled AHCI Prefetch Function - Enabled ( disables it )
+UFS Support - Disabled ( if you dont know what this it leave default )
+S3/Modern Standby Support - Disabled
+ALink RAS Support - Disabled
+BIOS Mode - OC Genie Mode ( change this in bios  )
+CPU temperature Warning Control - Disabled
+ASPM Control for CPU - Disabled
+Indirect Branch Prediction Speculation - Disabled
+L1 Stream HW Prefetcher - Enabled
+L2 Stream HW Prefetcher - Enabled
+Power Supply Idle Control - Typical Current Idle
+MCA error thresh enable - False
+1TB remap - Do not remap
+IPv4 HTTP Support - Disabled
+IPv6 HTTP Support - Disabled
+Ipv4 PXE Support - Disabled
+Ipv6 PXE Support - Disabled
+XHCI Hand-off - Disabled
+MsiDis in HPET - Enabled
+Legacy USB Support - Disabled
+EHCI Hand-off - Disabled
+USB Mass Storage Driver Support - Disabled
+Serial(COM) Port - Disabled
+DRAM Post Package Repair - Enabled
+Parallel Port - Disabled
+SVM Mode - Disabled
+CC1 - Enabled ( if you dont know what this is leave default )
+SmartShift Control - Manual
+SmartShift Enable - Disabled
+STAPM Control - Manual ( Not sure do it at your own risk )
+STAPM Boost - Disabled
+Debug Port Table - Disabled
+Debug Port Table 2 - Disabled
+VGA Palette Snoop - Disabled ( Might BSOD do it at your own risk )
+BME DMA Mitigation - Disabled
+ASPM Support - Disabled
+SB Clock Spread Spectrum - Disabled
+SB Clock Spread Spectrum Option - -0.362%
+_OSC For PCI0 - Disabled
+SB C1E Support - Disabled
+Bootup NumLock State - Off
+Turn On LED in S5 - Off/Disabled ( I don't have it so the beside value to disable is 0x0 like disabled is 00 or 01 and enabled is 01 or 00 auto is FF basically its 0 )
+Wake on PME - Disabled ( dont think it exist on AMD maybe only on asus )
+Thunderbolt Support - Disabled
+D3Cold Support/D3 Cold Support - Disabled
+Platform First Error Handling - Disabled
+SMU and PSP Debug Mode - Disabled
+Xtrig7 Workaround - Disabled/No Workaround
+PCIe ARI Support - Disabled
+PCIe ARI Enumeration - Disabled ( Might cause issue do it at your own risk )
+CV test - Disabled
+Loopback Mode - Disabled
+System Hub Watchdog Timer - Disabled/0 (Defaut for me is A28, It causes my PC to reboot twice so I put it back to default)
+USB ecc SMI Enable - Off
+eMMC Boot - Disabled
+eMMC/SD Configure - Disabled
+Data Scramble - Disabled
+Modern Standby Type - Modern Standby + S0i2
+CPU PCIE ASPM Mode Control - Disabled
+Option ROM Messages - Disabled/Keep Current
+OC Mode - OC3 ( optional )
+Fast Boot - Disabled
+OC Explore Mode - Expert ( do it in bios )
+POST Beep - Disabled
+Boot mode select - UEFI ( leave default if you don't know what this is )
+Info Block effect - Lock
+Full Screen Logo Display - Disabled/0
+MSI Driver Utility Installer - Disabled
+CPU Fan Fail Warning Control - Disabled
+I2C 1 Enable - Disabled
+I2C 2 Enable - Disabled
+I2C 3 Enable - Disabled
+I2C 4 Enable - Disabled
+I2C 5 Enable - Disabled
+SD Configuration Mode - 0/SD Dump disabled
+UCLK DIV1 MODE - 01/UCLK==MEMCLK
+Memory Clear - Disabled ( leave default )
+PPIN Opt-in - Disabled
+Local APIC Mode - x2APIC ( leave default if you don't know what this is )
+LCLK Frequency Control - manual ( leave default if you don't know what this is )
+SPI Fast Read Speed - 100MHz
+SPI 100MHz Support - Enabled
+SPI Read Mode - Fast Read
+SATA PHY PLL - Disabled ( leave default if you don't know what this is )
+PCI Latency Timer - 248 PCI Bus Clocks ( leave default )
+PCI-X Latency Timer - 248 PCI Bus Clocks ( leave default )
+RxDatChnDly - 0 ( related to ram )
+
+( lawliet )
+ABOUT "Determinism slider"
+The determinism slider tells the SoC how to operate; by defaul	t, it is set to performance determinism.
+
+"Performance determinism" tells the processor to run in a consistent manner which allows consistent repeatability when doing benchmarks or performance testing. The processor will run at the best performance with little deviation allowing repeatable runs.
+
+"Power determinism" allows each individual processor to run at the maximum allowable performance on a per die basis. This means that process deviation will not be accounted for and if benchmarks or performance runs are made, there will potentially be differences between runs and between processors. The amount of deviation is dependent upon process as well as other system characteristics such as thermals.
+
+Determinism can be used as needed, but for the most consistent operation, the "performance determinism" mode is recommended.
+
+( imribiy )
+Do not disable any Interleaving
